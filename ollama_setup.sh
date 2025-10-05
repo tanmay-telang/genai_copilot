@@ -3,5 +3,5 @@
 curl -fsSL https://ollama.com/install.sh | sh
 nohup ollama serve > ollama.log 2>&1 &
 ollama --version
-ollama pull gemma:2b
+ollama pull gemma2:2b
 ollama list
